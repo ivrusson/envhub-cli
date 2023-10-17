@@ -1,0 +1,22 @@
+{
+  "name": "envhub-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "envhub": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "fs": "0.0.1-security",
+    "inquirer": "^8.2.6",
+    "yargs": "^17.7.2"
+  }
+}
